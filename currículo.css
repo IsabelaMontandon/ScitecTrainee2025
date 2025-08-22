@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header h1 {
+  color: #d84ff7;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  color: #d84ff7;
+  margin-bottom: 10px;
+}
+
+.resumo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resumo p {
+  width: 70%;
+}
+
+.foto {
+  width: 140px;        
+  height: auto;
+  border-radius: 20px; 
+}
+
+.experiencia {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.experiencia .logo {
+  width: 80px;
+  height: auto;
+  margin-left: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin: 5px 0;
+}
